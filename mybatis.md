@@ -66,7 +66,7 @@ public class Hello {
 
 ## 增加mybatis-plus依赖
 
-- 安装h2数据库
+- 安装h2数据库(也可以自己安装别的数据库)
   - h2数据库可以当作内存数据库,用来做单元测试很方便
   - 添加 pom 依赖
   - ```xml
@@ -91,3 +91,10 @@ public class Hello {
         ```
     - 启动项目,在浏览器中输入`http://localhost:8080/h2-console`即可进入h2控制台
 - 添加mybatis-plus依赖
+  ```xml
+    <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-boot-starter</artifactId>
+        <version>3.5.3.1</version>
+    </dependency>
+  ```
